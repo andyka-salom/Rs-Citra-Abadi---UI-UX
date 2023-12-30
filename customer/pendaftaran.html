@@ -24,7 +24,7 @@
         </ul>
         <ul class="side-menu">
             <li>
-                <a href="#" class="logout">
+                <a href="../index.html" class="logout">
                     <i class='bx bx-log-out-circle'></i>
                     Logout
                 </a>
@@ -37,12 +37,10 @@
     <div class="content">
       <nav>
         <div class="admin-profile">
-            <a href="#">
                 <li><i class='bx bx-user-circle'></i></li>
                 <span class="info">
                     <h3>Herlina Nasution</h3>
                 </span>
-            </a>
         </div>
     </nav>
 <main>
@@ -61,14 +59,14 @@
                         <select id="poliklinik" name="poliklinik">
                             <option value="poliklinik1">Poliklinik 1</option>
                             <option value="poliklinik2">Poliklinik 2</option>
-                            <!-- Tambahkan poliklinik lainnya sesuai kebutuhan -->
+                           
                         </select>
             
                         <label for="dokter">Pilih Dokter:</label>
                         <select id="dokter" name="dokter">
                             <option value="dokter1">Dr. Amanda Johnson</option>
                             <option value="dokter2">Dr. Michael Smith</option>
-                            <!-- Tambahkan dokter lainnya sesuai kebutuhan -->
+                           
                         </select>
             
                         <label for="jadwal">Pilih Jadwal:</label>
@@ -124,7 +122,7 @@
                     currentStepElement.style.display = "none";
             
                     if (currentStep === 3) {
-                        // Proses verifikasi dan menampilkan informasi
+                        
                         var poliklinik = document.getElementById("poliklinik").value;
                         var dokter = document.getElementById("dokter").value;
                         var jadwal = document.getElementById("jadwal").value;
@@ -132,10 +130,10 @@
                         var namaAskes = document.getElementById("nama-askes").value;
                         var nomorAskes = document.getElementById("nomor-askes").value;
             
-                        // Simulasi mendapatkan nomor antrian, ruang, dan jam
+                        
                         var nomorAntrian = Math.floor(Math.random() * 100) + 1;
-                        var ruang = "Ruang 101"; // Ganti dengan logika sesuai kebutuhan
-                        var jam = "08:00 - 09:00"; // Ganti dengan logika sesuai kebutuhan
+                        var ruang = "Ruang 101"; 
+                        var jam = "08:00 - 09:00"; 
             
                         var verifikasiDokter = document.getElementById("verifikasi-dokter");
                         var verifikasiPoliklinik = document.getElementById("verifikasi-poliklinik");
@@ -168,7 +166,7 @@
                 }
             
                 function submitForm() {
-                    // Lakukan aksi submit form di sini
+
                     alert("Form submitted successfully!");
                 }
             </script>

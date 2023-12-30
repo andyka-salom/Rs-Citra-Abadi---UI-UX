@@ -456,6 +456,8 @@ body{
 .content main .bottom-data .orders{
     flex-grow: 1;
     flex-basis: 500px;
+
+    
 }
 
 .content main .bottom-data .orders table{
@@ -561,6 +563,14 @@ body{
 .content main .bottom-data .reminders .task-list li:last-child{
    margin-bottom: 0;
 }
+.patient-details {
+    display: flex;
+    align-items: center;
+}
+
+.text-details {
+    margin-left: 20px;
+}
 
 @media screen and (max-width: 768px) {
     .sidebar{
@@ -570,6 +580,10 @@ body{
     .content{
         width: calc(100% - 60px);
         left: 200px;
+    }
+    .patient-details {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
 }
@@ -633,7 +647,7 @@ margin-top: 7%;
 
 .bigcontainer {
     display: flex;
-    flex-wrap: wrap; /* Added flex-wrap property */
+    flex-wrap: flex; 
     margin-top: 2%;
     margin-left: 1%;
     min-height: 645px;
@@ -652,10 +666,10 @@ margin-top: 7%;
     box-shadow: var(--box-shadow);
     justify-content: center;
     max-width: 350px;
-    margin-top: 25px;
+    /* margin-top: 25px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; */
     box-sizing: border-box;
     margin: 25px auto 10px;
 }
@@ -704,200 +718,739 @@ margin-top: 7%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     box-sizing: border-box; /* Added box-sizing property */
 }
-    .c_drg-aurell-poli-gig-text {
-      width: 100%;
-      max-width: 207px;
-      max-height:250px;
-      margin-top: 5%;
-      min-height: 61px;
-      text-align: center;
-      margin-bottom: 0;
-    }
+
+/* Add more styles and media queries as needed */
+
+  .c_drg-aurell-poli-gig-text {
+    width: 100%;
+    max-width: 207px;
+    max-height:250px;
+    margin-top: 5%;
+    min-height: 61px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .c_drg-aurell-poli-gig-text1,
+  .c_drg-aurell-poli-gig-text2 {
+    color: #271e4a;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 0;
+    text-align: center;
+    font-family: "Kanit",sans-serif;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  
+  .c_jadwal3-instance {
+    width: 100%;
+    max-width: 600px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #3497F9;
+    border-radius: 5px;
+    margin-top: 10%;
+  }
+  .c_jadwal3-instance4 {
+    width: 100%;
+    max-width: 600px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #43d430;
+    margin-top: 50px;
+    border-radius: 5px;
+  }
+  
+  .c_jadwal3-text {
+    width: 100%;
+    max-width: 199px;
+    min-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .c_jadwal3-text1,
+  .c_jadwal3-text2 {
+    color: #030303;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 10%;
+    text-align: center;
+    font-family: "Kanit",sans-serif;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  
+  .c_jadwal3-vector {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+    max-width: 268.6728515625px;
+    box-shadow: 0 4px 15px 0#79cfa6;
+  }
+  
+  .c_jadwal3-text3,
+  .c_jadwal3-text4 {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .c_jadwal3-text3 {
+    width: 100%;
+    max-width: 187.06790161132812px;
+    min-height: 35.3684196472168px;
+  }
+  
+  .c_jadwal3-text4 {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-family: "Kanit",sans-serif;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+  
+  .c_jadwal3-vector1 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: block;
+    opacity: .11999999731779099;
+    max-width: 284px;
+  }
+  /* .container status{
+    display: flex;
+    height: 100px ;
+    width: 150px;
+    background: #617a98 !important;
+    border-radius: 45px ;
+    box-shadow: var(--box-shadow);
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 10px; 
+    margin-right: 10px;
+    border-style: solid var(--black);
+  } */
+  .c_frame23-frame {
+    padding-top: 20%;
+    width: 100%;
+    max-width: 3000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .c_frame23-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .c_frame23-text02 {
+    margin-top: 10px;
+    color: #999;
+  }
+  
+  .c_frame23-line {
+    margin: 20px 0;
+  }
+  
+  .c_frame23-text04 {
+    color: #999;
+  }
+  
+  
+  .edit-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: justify-content;
+    margin-top: 10px;
+    width: 150px;
+  /* bottom: 10px; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+  }
+  
+  .rounded-image {
+    border-radius: 10%;
+  }
+  
+  .c_frame23-frame {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#myLineChart {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.c_frame23-text {
+    text-align: center;
+}
+
+.c_frame23-text01 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.c_frame23-text02,
+.c_frame23-text04 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.c_frame23-text03,
+.c_frame23-text05 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.container-profil{
+    margin-left: 1230px;
     
-    .c_drg-aurell-poli-gig-text1,
-    .c_drg-aurell-poli-gig-text2 {
-      color: #271e4a;
-      font-size: 20px;
-      font-style: normal;
-      margin-top: 0;
-      text-align: center;
-      font-family: "Kanit",sans-serif;
-      font-weight: 300;
-      line-height: normal;
-      /* margin-bottom: 0; */
-      letter-spacing: 0;
-      text-transform: none;
+}
+
+/* Add this style for the admin profile */
+.admin-profile {
+    display: flex;
+    align-items: center;
+    margin-left: 85%;
+}
+
+.admin-profile a {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    text-decoration: none;
+    color: #333;
+}
+
+.admin-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+/* Rest of your existing CSS */
+.card-detail{
+    flex: 0 0 calc(33.3333% - 20px);
+    display: flex;
+    height: 275px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background: #EDF4FC;
+    border-radius: 45px;
+    box-shadow: var(--box-shadow);
+    justify-content: center;
+    /* max-width: 350px;
+    /* margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px; */
+    /* box-sizing: border-box; */
+    /* margin: 25px auto 10px; */ 
+}
+.medical-history {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header i {
+    margin-right: 10px;
+}
+
+.history-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.history-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+/* Optional: Add styles to make it responsive */
+@media (max-width: 600px) {
+    .history-list li {
+        padding: 10px;
     }
+}
+.patient-record {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header i {
+    margin-right: 10px;
+}
+
+.patient-details {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.text-details {
+    margin-left: 20px;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.medical-history {
+    padding: 20px;
+}
+
+.history-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.history-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+/* Optional: Add styles to make it responsive */
+@media (max-width: 600px) {
+    .patient-details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .text-details {
+        margin: 10px 0 0 0;
+    }
+}
+.doctor-schedule {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header i {
+    margin-right: 10px;
+}
+
+.doctor-bio,
+.schedule-form {
+    flex: 1;
+}
+
+.doctor-details {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.text-details {
+    margin-left: 20px;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.schedule-form {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+select,
+input {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+.service-schedule {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.service-schedule {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header i {
+    margin-right: 10px;
+}
+
+.poli-info,
+.doctor-selection,
+.doctor-bio {
+    flex: 1;
+}
+
+.poli-details,
+.doctor-details {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.text-details {
+    margin-left: 20px;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+form {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+select,
+input {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+.doctor-option {
+    margin-bottom: 16px;
+}
+.doctor-schedule {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.doctor-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 5px;
+    margin-left: 5px;
+    text-align: center;
     
-    .c_jadwal3-instance {
-      width: 100%;
-      max-width: 600px;
-      align-items: flex-start;
-      flex-direction: column;
-      justify-content: flex-start;
-      background-color: #3497F9;
-      border-radius: 5px;
-      /* margin-top: 10%; */
+}
+
+.doctor-image {
+
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+        border-radius: 5%;
+
+}
+
+.doctor-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doctor-name {
+    margin-bottom: 10px;
+}
+
+.poli, .schedule, .availability-text {
+    margin: 5px 0;
+}
+
+.edit-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.kotak-jadwal{
+width: 100%;
+max-width: 199px;
+min-height: 30px;
+text-align: center;
+margin-bottom: 10px;
+background-color: #3497F9;
+}
+
+.kotak-ava{
+    width: 100%;
+    max-width: 199px;
+    min-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #79CFA6;
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .search__input {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #f4f2f2;
+    border: none;
+    color: #646464;
+    padding: 0.7rem 1rem;
+    border-radius: 30px;
+    width: 12em;
+    transition: all ease-in-out .5s;
+    margin-right: -2rem;
+  }
+  
+  .search__input:hover, .search__input:focus {
+    box-shadow: 0 0 1em #00000013;
+  }
+  
+  .search__input:focus {
+    outline: none;
+    background-color: #f0eeee;
+  }
+  
+  .search__input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #ccc;
+  }
+  
+  .search__input:focus + .search__button {
+    background-color: #f0eeee;
+  }
+  
+  .search__button {
+    border: none;
+    background-color: #f4f2f2;
+    margin-top: .1em;
+  }
+  
+  .search__button:hover {
+    cursor: pointer;
+  }
+  
+  .search__icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: #b4b4b4;
+  }
+
+  .header input[type="date"],
+.header input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+}
+@media (max-width: 768px) {
+    .doctor-card {
+        flex-basis: calc(50% - 20px);
     }
-    .c_jadwal3-instance4 {
-      width: 100%;
-      max-width: 600px;
-      align-items: flex-start;
-      flex-direction: column;
-      justify-content: flex-start;
-      background-color: #43d430;
-      /* margin-top: 50px; */
-      border-radius: 5px;
-    }
-    
-    .c_jadwal3-text {
-      width: 100%;
-      max-width: 199px;
-      min-height: 30px;
-      text-align: center;
-      /* margin-bottom: 10px; */
-    }
-    
-    .c_jadwal3-text1,
-    .c_jadwal3-text2 {
-      color: #030303;
-      font-size: 20px;
-      font-style: normal;
-      /* margin-top: 10%; */
-      text-align: center;
-      font-family: "Kanit",sans-serif;
-      font-weight: 300;
-      line-height: normal;
-      margin-bottom: 0;
-      letter-spacing: 0;
-      text-transform: none;
-    }
-    
-    .c_jadwal3-vector {
-      width: 100%;
-      height: auto;
-      margin: 0;
-      display: block;
-      max-width: 268.6728515625px;
-      box-shadow: 0 4px 15px 0#79cfa6;
-    }
-    
-    .c_jadwal3-text3,
-    .c_jadwal3-text4 {
-      margin-top: 0;
-      text-align: center;
-      margin-bottom: 0;
-    }
-    
-    .c_jadwal3-text3 {
-      width: 100%;
-      max-width: 187.06790161132812px;
-      min-height: 35.3684196472168px;
-    }
-    
-    .c_jadwal3-text4 {
-      color: #fff;
-      font-size: 20px;
-      font-style: normal;
-      font-family: "Kanit",sans-serif;
-      font-weight: 300;
-      line-height: normal;
-      letter-spacing: 0;
-      text-transform: none;
-    }
-    
-    .c_jadwal3-vector1 {
-      width: 100%;
-      height: auto;
-      margin: 0;
-      display: block;
-      opacity: .11999999731779099;
-      max-width: 284px;
-    }
-    .container status{
-      display: flex;
-      height: 100px ;
-      width: 150px;
-      background: #617a98 !important;
-      border-radius: 45px ;
-      box-shadow: var(--box-shadow);
-      justify-content: center;
-      margin-top: 25px;
-      margin-left: 10px; 
-      margin-right: 10px;
-      border-style: solid var(--black);
-    }
-    .c_frame23-frame {
-      padding-top: 20%;
-      width: 100%;
-      max-width: 3000px;
-      margin: 0 auto;
-      background-color: #fff;
-      padding: 20px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    
-    .c_frame23-text {
-      font-size: 24px;
-      font-weight: bold;
-    }
-    
-    .c_frame23-text02 {
-      margin-top: 10px;
-      color: #999;
-    }
-    
-    .c_frame23-line {
-      margin: 20px 0;
-    }
-    
-    .c_frame23-text04 {
-      color: #999;
-    }
-    
-    
-    .edit-button {
-      background-color: blue;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      position: justify-content;
-      margin-top: 10px;
-      width: 140px;
-    /* bottom: 10px; */
-      /* left: 50%; */
-      /* transform: translateX(-50%); */
-    }
-    
-    .rounded-image {
-      border-radius: 10%;
-      margin-top: -4%;
-    }
-    
-    .container-profil{
-        margin-left: 1230px;
-        
-    } 
-    .admin-profile {
-        display: flex;
-        align-items: center;
-        margin-left: 85%;
-    }
-    
-    .admin-profile a {
-        display: flex;
-        align-items: center;
-        margin-left: auto;
-        text-decoration: none;
-        color: #333;
-    }
-    
-    .admin-profile img {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        margin-right: 8px;
-    }
-    
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    margin-right: 10px;
+}
+.search-bar button {
+    background-color: white; 
+    color: #333;
+    border: 1px solid #ccc; 
+    padding: 8px 12px; 
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+
+.search-bar button:hover {
+    background-color: #f0f0f0; 
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    padding: 10px;
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+}
+
+.search-section button {
+    padding: 8px;
+    background-color: #5a5757;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    background-color: #ddd;
+}
+button {
+    background-color: #2a4365;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style untuk input text dan tanggal */
+input[type="text"],
+input[type="date"] {
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* Style untuk pagination buttons */
+.pagination-buttons button {
+    background-color: #2a4365;
+    color: #fff;
+    padding: 8px 12px;
+    margin: 0 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination-buttons button:hover {
+    background-color: #1a3652;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+}
+
+/* Add styles for the search input */
+#searchInput {
+    width: 200px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 17px;
+}
+
+.doctor-schedule {
+    flex: 1;
+}
+
+.pagination-buttons {
+    margin-top: 20px;
+}
